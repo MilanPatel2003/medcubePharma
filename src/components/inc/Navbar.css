@@ -1,0 +1,30 @@
+.text{
+    font-size: 1.1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar-brand > span:nth-child(2){
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar {
+    background-color: #92d9cb; /* Set the background color */
+    box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* Add a border shadow */
+    margin-top: 10px;
+    position: fixed;
+  }
+  
+  
+  .navbar-nav .nav-link:hover {
+    background-color: rgb(166, 239, 223); /* Add background color on hover */
+    transition: background-color 0.2s ease-in; /* Add smooth transition effect */
+  }
+  .navbar-nav .nav-item {
+    margin-left: 50px; /* Adjust the spacing as per your preference */
+  }
+  
+  .navbar-nav .nav-link {
+    padding: 10px; /* Adjust the padding as per your preference */
+  }
+  html body div#root nav.navbar.navbar-expand-lg.navbar-light.bg-light.text div.container.mx-2 div#navbarNav.offcanvas.offcanvas-end div.offcanvas-body ul.navbar-nav.ms-auto.pe-3{
+    margin-right: -130px;
+  }
