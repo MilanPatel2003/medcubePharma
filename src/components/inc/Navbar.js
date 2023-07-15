@@ -15,17 +15,17 @@ function NavBar() {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light text">
+    <nav className="navbar navbar-expand-lg navbar-light fixed-top text">
       <div className="container mx-2">
         <Link className="navbar-brand" to="#">
           <img
             src={logoImage}
             alt="Logo"
-            width="50"
-            height="50"
+            width="40"
+            height="40"
             className="d-inline-block align-text-center text mx-2"
           />
-          <span>MedcubePharma</span>
+          <span>MedcubePharmaceuticals</span>
         </Link>
         <button
           className="navbar-toggler"

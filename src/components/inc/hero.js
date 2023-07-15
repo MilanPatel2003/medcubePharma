@@ -22,9 +22,9 @@ function Hero() {
                 <img data-aos="fade-left" src={heroImage} className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="600" height="150" loading="lazy" />
               </div>
               <div className="col-lg-6" data-aos="fade-right">
-                <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">Supplier, Importer & Third Party Manufacturer</h1>
+                <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">Supplier, Exporter & Third Party Manufacturer</h1>
                 <p className="lead"> "Your Trusted Source for Third-Party Pharma Manufacturing"
-            We provide WHO-GMP Certified third-party manufacturing services at the best and competitive rates. 
+            We provide <strong className="fw-bold">WHO-GMP Certified</strong> third-party manufacturing services at the best and competitive rates. 
             With our state-of-the-art facilities and experienced team, we deliver high-quality pharmaceutical products for your business.
             Partner with us for reliable and efficient manufacturing solutions.</p>
                 <div className="d-grid gap-2 d-md-flex justify-content-md-start">
@@ -34,6 +34,8 @@ function Hero() {
               </div>
             </div>
           </div>
+
+          
         )
     }
 
