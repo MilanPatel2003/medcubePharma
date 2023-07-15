@@ -10,7 +10,7 @@ function Hero() {
     useEffect(() => {
         AOS.init({
           duration:2000,
-          offset:500
+          offset:300
         });
       }, []);
 
