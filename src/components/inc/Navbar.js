@@ -15,7 +15,7 @@ function NavBar() {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light fixed-top text">
+    <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
       <div className="container mx-2">
         <Link className="navbar-brand" to="#">
           <img
@@ -23,7 +23,7 @@ function NavBar() {
             alt="Logo"
             width="40"
             height="40"
-            className="d-inline-block align-text-center text mx-2"
+            className="d-inline-block align-text-center mx-2"
           />
           <span>MedcubePharmaceuticals</span>
         </Link>
@@ -37,7 +37,7 @@ function NavBar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className={`offcanvas offcanvas-end ${isOpen ? "show" : ""}`} tabIndex="-1" id="navbarNav">
+        <div className={`offcanvas offcanvas-end ${isOpen ? "show" : ""}`} style={{ width: "250px",backgroundColor:"#481161" }} tabIndex="-1" id="navbarNav">
           <div className="offcanvas-header">
             <h5 className="offcanvas-title">Menu</h5>
             <button
@@ -48,7 +48,7 @@ function NavBar() {
             ></button>
           </div>
           <div className="offcanvas-body">
-            <ul className="navbar-nav ms-auto pe-3">
+            <ul className="navbar-nav ms-auto pe-3 text">
               <li className="nav-item">
                 <Link className="nav-link" to="/" onClick={handleNavlinkClick}>
                   <i className="bi bi-house-fill me-1"></i>Home
