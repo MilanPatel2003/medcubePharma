@@ -16,7 +16,7 @@ function Segment() {
     });
   }, []);
     return(
-        <div> 
+        <div className="container"> 
 
         <section className="py-5 text-center container">
     <div className="row py-lg-5">
@@ -31,7 +31,7 @@ function Segment() {
         <div className="col-md-4" data-aos="fade-right">
           <div className="thumbnail">
             <Link to="/pharmaceuticals">
-              <img src={thumbnail1} alt="Thumbnail 1" height="460px" />
+              <img src={thumbnail1} alt="Thumbnail 1"  />
               <div className="caption">
                 <h3>Pharmaceuticals</h3>
               </div>
@@ -41,7 +41,7 @@ function Segment() {
         <div className="col-md-4" >
           <div className="thumbnail" data-aos="fade">
             <Link to="/nutraceuticals">
-              <img src={thumbnail2} alt="Thumbnail 2"  height="460px" />
+              <img src={thumbnail2} alt="Thumbnail 2"  />
               <div className="caption">
                 <h3>Nutraceuticals</h3>
               </div>
@@ -51,7 +51,7 @@ function Segment() {
         <div className="col-md-4" data-aos="fade-left">
           <div className="thumbnail">
             <Link to="/surgical">
-              <img src={thumbnail3} alt="Thumbnail 3" height="460px" />
+              <img src={thumbnail3} alt="Thumbnail 3" />
               <div className="caption">
                 <h3>Surgical</h3>
               </div>
