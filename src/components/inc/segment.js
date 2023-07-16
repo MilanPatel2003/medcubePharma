@@ -9,7 +9,12 @@ import thumbnail3 from "../images/Thumbnail3.jpg";
 
 
 
-function segment() {
+function Segment() {
+  useEffect(() => {
+    AOS.init({
+      duration:2000,
+    });
+  }, []);
     return(
         <div> 
 
@@ -23,7 +28,7 @@ function segment() {
 
   <div className="container mb-4">
       <div className="row">
-        <div className="col-md-4">
+        <div className="col-md-4" data-aos="fade-right">
           <div className="thumbnail">
             <Link to="/pharmaceuticals">
               <img src={thumbnail1} alt="Thumbnail 1" height="460px" />
@@ -33,8 +38,8 @@ function segment() {
             </Link>
           </div>
         </div>
-        <div className="col-md-4">
-          <div className="thumbnail">
+        <div className="col-md-4" >
+          <div className="thumbnail" data-aos="fade">
             <Link to="/nutraceuticals">
               <img src={thumbnail2} alt="Thumbnail 2"  height="460px" />
               <div className="caption">
@@ -43,7 +48,7 @@ function segment() {
             </Link>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4" data-aos="fade-left">
           <div className="thumbnail">
             <Link to="/surgical">
               <img src={thumbnail3} alt="Thumbnail 3" height="460px" />
@@ -69,4 +74,4 @@ function segment() {
     )
 }
 
-export default segment;
+export default Segment;

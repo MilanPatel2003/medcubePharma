@@ -10,7 +10,6 @@ function Hero() {
     useEffect(() => {
         AOS.init({
           duration:2000,
-          offset:300
         });
       }, []);
 
@@ -19,7 +18,7 @@ function Hero() {
             <div className="container col-xxl-8 px-4 py-5 text">
             <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
               <div className="col-10 col-sm-8 col-lg-6">
-                <img data-aos="fade-left" src={heroImage} className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="600" height="150" loading="lazy" />
+                <img data-aos="fade-left" src={heroImage} className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="600" height="150"/>
               </div>
               <div className="col-lg-6" data-aos="fade-right">
                 <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">Supplier, Exporter & Third Party Manufacturer</h1>
