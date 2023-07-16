@@ -14,7 +14,7 @@ section{
   
   .thumbnail img {
     width: 85%;
-   
+   height: 400px;
     transition: transform 0.3s;
   }
   
