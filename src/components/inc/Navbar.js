@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logoImage from "../images/logo.webp"
+import logoImage from "../images/logo.webp";
 import "./Navbar.css";
 
 function NavBar() {
@@ -16,7 +16,7 @@ function NavBar() {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
-      <div className="container mx-2">
+      <div className="container-fluid">
         <Link className="navbar-brand" to="#">
           <img
             src={logoImage}
@@ -37,40 +37,54 @@ function NavBar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className={`offcanvas offcanvas-end ${isOpen ? "show" : ""}`} style={{ width: "250px",backgroundColor:"#481161" }} tabIndex="-1" id="navbarNav">
-          <div className="offcanvas-header">
-            <h5 className="offcanvas-title">Menu</h5>
-            <button
-              type="button"
-              className="btn-close text-reset"
-              onClick={handleToggle}
-              aria-label="Close"
-            ></button>
-          </div>
-          <div className="offcanvas-body">
-            <ul className="navbar-nav ms-auto pe-3 text">
-              <li className="nav-item">
-                <Link className="nav-link" to="/" onClick={handleNavlinkClick}>
-                  <i className="bi bi-house-fill me-1"></i>Home
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/products" onClick={handleNavlinkClick}>
-                  <i className="bi bi-capsule me-1"></i>Products
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/about" onClick={handleNavlinkClick}>
-                  <i className="bi bi-info-circle-fill me-1"></i>About Us
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/contact" onClick={handleNavlinkClick}>
-                  <i className="bi bi-envelope-fill me-1"></i>Contact Us
-                </Link>
-              </li>
-            </ul>
-          </div>
+        <div className={`collapse navbar-collapse ${isOpen ? "show" : ""}`}>
+          <ul className="navbar-nav ms-auto pe-3 text">
+            <li className="nav-item">
+              <Link className="nav-link" to="/" onClick={handleNavlinkClick}>
+                Home
+              </Link>
+            </li>
+            <li className="nav-item dropdown">
+              <Link
+                className="nav-link dropdown-toggle"
+                to="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded={isOpen ? "true" : "false"}
+              >
+                Products
+              </Link>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <Link className="dropdown-item" to="/Pharmaceutical" onClick={handleNavlinkClick}>
+                    Pharmaceutical
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/Nutraceutical" onClick={handleNavlinkClick}>
+                     Nutraceutical
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/Surgical" onClick={handleNavlinkClick}>
+                     Surgical
+                  </Link>
+                </li>
+              </ul>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/About" onClick={handleNavlinkClick}>
+                 About us
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/Contact" onClick={handleNavlinkClick}>
+                 Contact us
+              </Link>
+            </li>
+            
+          </ul>
         </div>
       </div>
     </nav>

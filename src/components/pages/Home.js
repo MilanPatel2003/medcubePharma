@@ -3,11 +3,13 @@ import Hero from "../inc/hero";
 
 
 
+
 class Home extends Component{
 render(){
     
     return(
         <span><Hero /></span>
+
     )
 }
     
