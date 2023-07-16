@@ -31,7 +31,7 @@ function Segment() {
         <div className="col-md-4">
           <div className="thumbnail">
             <Link to="/pharmaceuticals">
-              <img src={thumbnail1} alt="Thumbnail 1"  />
+              <img src={thumbnail1} alt="Thumbnail 1" data-aos="fade-right" />
               <div className="caption">
                 <h3>Pharmaceuticals</h3>
               </div>
@@ -41,7 +41,7 @@ function Segment() {
         <div className="col-md-4" >
           <div className="thumbnail">
             <Link to="/nutraceuticals">
-              <img src={thumbnail2} alt="Thumbnail 2"  />
+              <img src={thumbnail2} alt="Thumbnail 2" data-aos="fade"  />
               <div className="caption">
                 <h3>Nutraceuticals</h3>
               </div>
@@ -51,7 +51,7 @@ function Segment() {
         <div className="col-md-4" >
           <div className="thumbnail">
             <Link to="/surgical">
-              <img src={thumbnail3} alt="Thumbnail 3" />
+              <img src={thumbnail3} alt="Thumbnail 3" data-aos="fade-left"/>
               <div className="caption">
                 <h3>Surgical</h3>
               </div>
