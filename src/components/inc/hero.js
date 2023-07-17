@@ -15,14 +15,14 @@ function Hero() {
 
    
         return(
-            <div className="container col-xxl-8 px-4 py-5 text">
+            <div className="container col-xxl-8 px-4 py-5">
             <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
               <div className="col-10 col-sm-8 col-lg-6">
                 <img data-aos="fade-left" src={heroImage} className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="600" height="150"/>
               </div>
               <div className="col-lg-6" data-aos="fade-right">
-                <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">Supplier, Exporter & Third Party Manufacturer</h1>
-                <p className="lead"> "Your Trusted Source for Third-Party Pharma Manufacturing"
+                <h1 className="header mb-3">Supplier, Exporter & Third Party Manufacturer</h1>
+                <p className="para"> "Your Trusted Source for Third-Party Pharma Manufacturing"
             We provide <strong className="fw-bold">WHO-GMP Certified</strong> third-party manufacturing services at the best and competitive rates. 
             With our state-of-the-art facilities and experienced team, we deliver high-quality pharmaceutical products for your business.
             Partner with us for reliable and efficient manufacturing solutions.</p>
