@@ -1,5 +1,5 @@
 import {React, useEffect }from "react";
-import heroImage1 from "../images/About1.jpg";
+import heroImage1 from "../images/quesionmark.png";
 import heroImage2 from "../images/vision.jpg";
 import approach from "../images/approach.png";
 import gmpLogo from "../images/gmp.png";
@@ -20,10 +20,10 @@ function About() {
       <section className="py-5">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-md-6">
-              <img src={heroImage1} alt="Hero1" height="350px" width="400px"/>
+            <div className="col-md-4">
+              <img src={heroImage1} alt="Hero1" height="350px" width="310px"/>
             </div>
-            <div className="col-md-6" >
+            <div className="col-md-8" >
               <h2>What We Do?</h2>
               <p className="lead">
 At Medcube Pharmaceuticals, we specialize in trusted third-party pharma manufacturing. With state-of-the-art facilities and a dedicated team, we deliver high-quality pharmaceutical products. Our comprehensive manufacturing capabilities cover formulation development, production, and packaging. Partner with us for reliable and efficient manufacturing solutions that meet the highest industry standards.
