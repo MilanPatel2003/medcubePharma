@@ -54,8 +54,8 @@ At Medcube Pharmaceuticals, we specialize in trusted third-party pharma manufact
               <img src={heroImage2} alt="Hero2" className="img-fluid" data-aos="fade"/>
             </div>
             <div className="col-md-6 order-md-1" data-aos="fade">
-              <h2>Our Vision</h2>
-              <p className="lead">
+              <h2 className="header">Our Vision</h2>
+              <p className="para">
               To become a global leader in the pharmaceutical industry by continuously innovating and delivering advanced healthcare solutions. We strive to improve the quality of life for individuals worldwide by providing safe, effective, and affordable medications. With a focus on research and development, we aim to address unmet medical needs and contribute to the well-being of communities globally.
               </p>
             </div>
