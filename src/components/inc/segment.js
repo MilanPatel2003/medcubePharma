@@ -26,7 +26,7 @@ function Segment() {
 
       <div className="container mb-4">
         <div className="row">
-          <div className="col-lg-4 col-md-6 col-sm-6">
+          <div className="col-lg-4 col-md-6 col-sm-4">
             <div className="thumbnail">
               <Link to="/Pharmaceutical">
                 <img src={thumbnail1} alt="Thumbnail 1"  data-aos="fade-right" />
@@ -36,7 +36,7 @@ function Segment() {
               </Link>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-6">
+          <div className="col-lg-4 col-md-6 col-sm-4">
             <div className="thumbnail" >
               <Link to="/Nutraceutical">
                 <img src={thumbnail2} alt="Thumbnail 2" data-aos="fade" />
@@ -46,7 +46,7 @@ function Segment() {
               </Link>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-6">
+          <div className="col-lg-4 col-md-6 col-sm-4">
             <div className="thumbnail" >
               <Link to="/Surgical">
                 <img src={thumbnail3} alt="Thumbnail 3" data-aos="fade-left" />
