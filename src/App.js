@@ -9,6 +9,7 @@ import NavBar from './components/inc/Navbar';
 import Footer from './components/inc/footer';
 import Nutraceutical from './components/pages/Nutraceutical';
 import Surgical from './components/pages/Surgical';
+import BrochureContainer from './components/inc/brochure';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
          <Route path='/Nutraceutical' element={<Nutraceutical />} />
         <Route path="/Surgical" element={<Surgical />} />
       </Routes>
+      <BrochureContainer></BrochureContainer>
       <Footer></Footer>
     </Router>
   );
