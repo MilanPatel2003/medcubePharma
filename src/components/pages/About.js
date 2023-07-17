@@ -21,9 +21,9 @@ function About() {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-4">
-              <img src={heroImage1} alt="Hero1" height="350px" width="310px" data-aos="fade-right"/>
+              <img src={heroImage1} alt="Hero1" height="350px" width="310px" data-aos="fade"/>
             </div>
-            <div className="col-md-8" data-aos="fade-left" >
+            <div className="col-md-8" data-aos="fade" >
               <h2 className="header">What We Do?</h2>
               <p className="para">
 At Medcube Pharmaceuticals, we specialize in trusted third-party pharma manufacturing. With state-of-the-art facilities and a dedicated team, we deliver high-quality pharmaceutical products. Our comprehensive manufacturing capabilities cover formulation development, production, and packaging. Partner with us for reliable and efficient manufacturing solutions that meet the highest industry standards.
@@ -50,9 +50,9 @@ At Medcube Pharmaceuticals, we specialize in trusted third-party pharma manufact
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-6 order-md-2">
-              <img src={heroImage2} alt="Hero2" className="img-fluid" />
+              <img src={heroImage2} alt="Hero2" className="img-fluid" data-aos="fade"/>
             </div>
-            <div className="col-md-6 order-md-1" data-aos="fade-right">
+            <div className="col-md-6 order-md-1" data-aos="fade">
               <h2>Our Vision</h2>
               <p className="lead">
               To become a global leader in the pharmaceutical industry by continuously innovating and delivering advanced healthcare solutions. We strive to improve the quality of life for individuals worldwide by providing safe, effective, and affordable medications. With a focus on research and development, we aim to address unmet medical needs and contribute to the well-being of communities globally.
