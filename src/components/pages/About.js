@@ -50,7 +50,7 @@ At Medcube Pharmaceuticals, we specialize in trusted third-party pharma manufact
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-6 order-md-2">
-              <img src={heroImage2} alt="Hero2" className="img-fluid" data-aos="fade-left" />
+              <img src={heroImage2} alt="Hero2" className="img-fluid" />
             </div>
             <div className="col-md-6 order-md-1" data-aos="fade-right">
               <h2>Our Vision</h2>
