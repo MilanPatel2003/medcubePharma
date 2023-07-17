@@ -16,14 +16,14 @@ function About() {
 
   return (
     <div className="about-container">
-
+     <div className="container">
       <section className="py-5">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-6">
-              <img src={heroImage1} alt="Hero1" height="350px" width="400px" data-aos="fade-right" />
+              <img src={heroImage1} alt="Hero1" height="350px" width="400px"/>
             </div>
-            <div className="col-md-6" data-aos="fade-left">
+            <div className="col-md-6" >
               <h2>What We Do?</h2>
               <p className="lead">
 At Medcube Pharmaceuticals, we specialize in trusted third-party pharma manufacturing. With state-of-the-art facilities and a dedicated team, we deliver high-quality pharmaceutical products. Our comprehensive manufacturing capabilities cover formulation development, production, and packaging. Partner with us for reliable and efficient manufacturing solutions that meet the highest industry standards.
@@ -32,6 +32,7 @@ At Medcube Pharmaceuticals, we specialize in trusted third-party pharma manufact
           </div>
         </div>
       </section>
+      </div>
 
       <div className="px-4 py-5 my-5 text-center" data-aos="fade">
     <img className="d-block mx-auto mb-4" src={gmpLogo} alt="gmp-logo" height={"150px"}/>
@@ -44,14 +45,14 @@ At Medcube Pharmaceuticals, we specialize in trusted third-party pharma manufact
 
 
 
-
+<div className="container">
       <section className="py-5">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-6 order-md-2">
-              <img src={heroImage2} alt="Hero2" className="img-fluid" data-aos="fade-left" />
+              <img src={heroImage2} alt="Hero2" className="img-fluid"  />
             </div>
-            <div className="col-md-6 order-md-1" data-aos="fade-right">
+            <div className="col-md-6 order-md-1">
               <h2>Our Vision</h2>
               <p className="lead">
               To become a global leader in the pharmaceutical industry by continuously innovating and delivering advanced healthcare solutions. We strive to improve the quality of life for individuals worldwide by providing safe, effective, and affordable medications. With a focus on research and development, we aim to address unmet medical needs and contribute to the well-being of communities globally.
@@ -60,6 +61,7 @@ At Medcube Pharmaceuticals, we specialize in trusted third-party pharma manufact
           </div>
         </div>
       </section>
+      </div>
 
       <div className="px-4 py-5 my-5 text-center" data-aos="fade">
     <img className="d-block mx-auto mb-4" src={approach} alt="gmp-logo" height={"180px"}/>
