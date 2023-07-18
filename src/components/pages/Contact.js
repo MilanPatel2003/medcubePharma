@@ -46,21 +46,21 @@ function Contact(){
                     <h2>Get in touch</h2>
                     <form className="row g-3 contactForm mt-4" ref={form} onSubmit={sendEmail}>
                         <div className="col-12">
-                          <label htmlFor="inputEmail4" className="form-label">Name</label>
-                          <input type="text" className="form-control" id="inputEmail4" required name="user_name" />
+                          <label htmlFor="inputname" className="form-label">Name</label>
+                          <input type="text" className="form-control" id="inputname" required name="user_name" />
                         </div>
    
                         <div className="col-12">
-                          <label htmlFor="inputAddress" className="form-label">Email Id</label>
-                          <input type="email" className="form-control" id="inputAddress" required name="user_email" />
+                          <label htmlFor="inputemail" className="form-label">Email Id</label>
+                          <input type="email" className="form-control" id="inputemail" required name="user_email" />
                         </div>
                         <div className="col-12">
-                            <label htmlFor="inputAddress" className="form-label">Contact Number</label>
-                            <input type="tel" className="form-control" id="inputAddress" placeholder="optional" name="user_contact" />
+                            <label htmlFor="inputcontact" className="form-label">Contact Number</label>
+                            <input type="tel" className="form-control" id="inputcontact" placeholder="optional" name="user_contact" />
                           </div>
                         <div className="col-12">
-                            <label htmlFor="inputCity" className="form-label">Message</label>
-                            <textarea type="text" className="form-control" id="inputCity" required name="user_message" /> 
+                            <label htmlFor="inputmessage" className="form-label">Message</label>
+                            <textarea type="text" className="form-control" id="inputmessage" required name="user_message" /> 
                           </div>
                         <div className="col-12">
                           <button type="submit" className="btn btn-primary mt-3">Send</button>
