@@ -8,11 +8,13 @@ import thumbnail2 from "../images/Thumbnail2.jpg";
 import thumbnail3 from "../images/Thumbnail3.jpg";
 
 function Segment() {
+
   useEffect(() => {
     AOS.init({
       duration: 2000,
     });
   }, []);
+  
 
   return (
     <div className="container">

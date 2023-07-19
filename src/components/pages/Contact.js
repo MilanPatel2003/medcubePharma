@@ -1,6 +1,7 @@
 import React from "react";
 import { useRef } from "react";
 import emailjs from '@emailjs/browser';
+import swal from 'sweetalert';
 import "./contact.css";
 
 
@@ -13,9 +14,20 @@ function Contact(){
       emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
         .then((result) => {
             console.log(result.text);
+            swal(
+                "Success",
+                "Your Data has been sent successfully",
+                "success"
+              );
             e.target.reset();
         }, (error) => {
             console.log(error.text);
+            swal(
+                "Something went wrong",
+                "Plese check your details once again",
+                "error"
+              );
+
         });
     };
   
