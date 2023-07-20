@@ -60,6 +60,14 @@ function Segment() {
           </div>
         </div>
       </div>
+
+      <section className="py-5 text-center">
+        <div className="row py-lg-5">
+          <div className="col-lg-6 col-md-8 mx-auto">
+            <p className="fw-light para-segment">Whether you're looking for nutritional supplements, prescription medications, or surgical equipment, we have you covered. Explore our extensive catalog by clicking on the image and find the perfect solutions to support your health and well-being.</p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

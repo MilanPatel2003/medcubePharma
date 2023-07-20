@@ -17,7 +17,7 @@ const BrochureContainer = () => {
 
   return (
     <div className="brochure-container">
-    <h2>Download Brochure</h2>
+    <h4>We also provide product as per this Brochure</h4>
     <div className="download-section">
       <img className="download-logo" src={downloadLogo} alt="Download Logo"/>
       <button className="download-button" onClick={handleDownload}>

@@ -30,9 +30,9 @@ function Hero() {
             Supplier, Exporter & Third Party Manufacturer
           </h1>
           <p className="para">
-            {" "}
+            
             "Your Trusted Source for Third-Party Pharma Manufacturing" We
-            provide <strong className="fw-bold">WHO-GMP Certified</strong>{" "}
+            provide <strong className="fw-bold">WHO-GMP Certified</strong>
             third-party manufacturing services at the best and competitive
             rates. With our state-of-the-art facilities and experienced team, we
             deliver high-quality pharmaceutical products for your business.

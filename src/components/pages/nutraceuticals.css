@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+
+.header-nutra{
+  font-size: 2.2rem;
+  font-family: 'Oxygen', sans-serif;
+  margin-bottom: -70px;
+
+}
+.para-nutra{
+  font-size: 1.1rem;
+  font-family: 'Oxygen', sans-serif;
+}
+.crosel-container {
+    position: relative;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+  
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  
+  .swiper-button-next,
+  .swiper-button-prev {
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .swiper-button-next i,
+  .swiper-button-prev i {
+    font-size: 24px;
+  }
+  
+  .swiper-button-next {
+    right: 10px;
+  }
+  
+  .swiper-button-prev {
+    left: 10px;
+  }
+  
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .swiper-button-next:focus,
+  .swiper-button-prev:focus {
+    outline: none;
+  }
+  
+  .swiper-button-next,
+  .swiper-button-prev {
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+  }
+  
+  .swiper-container:hover .swiper-button-next,
+  .swiper-container:hover .swiper-button-prev {
+    opacity: 1;
+  }
+  
+  .swiper-container:hover .swiper-button-next:hover,
+  .swiper-container:hover .swiper-button-prev:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  

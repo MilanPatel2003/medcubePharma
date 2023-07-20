@@ -25,7 +25,7 @@ function NavBar() {
             height="40"
             className="d-inline-block align-text-center mx-2"
           />
-          <span>MedcubePharmaceuticals</span>
+          <span>Medcube Pharmaceuticals</span>
         </Link>
         <button
           className="navbar-toggler"

@@ -50,8 +50,8 @@ function Contact(){
                         <p className="mt-4 ms-3">MedcubePharmaceuticals@gmail.com</p>
                     </div>
                     <div className="d-flex mt-2">
-                        <i className="bi bi-youtube"></i>
-                        <p className="mt-4 ms-3">Website : www.website.com/</p>
+                        <i className="bi bi-browser-chrome"></i>
+                        <p className="mt-4 ms-3">Website : www.medcubepharmaceuticals.com/</p>
                     </div>
                 </div>
                 <div className="col-md-8 p-5 ">

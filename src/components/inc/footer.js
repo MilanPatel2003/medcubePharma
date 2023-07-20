@@ -11,7 +11,7 @@ function Footer() {
           <div className="col-md-3 col-sm-6">
             <div className="footer-logo">
               <img src={logoImage} alt="Logo" height="60" width="60" />
-              <h5 className="logo-text">MedcubePharmaceuticals</h5>
+              <h5 className="logo-text">Medcube Pharmaceuticals</h5>
             </div>
           </div>
          
