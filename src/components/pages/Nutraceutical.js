@@ -9,10 +9,10 @@ import IMAGES from '../imagedata';
 
 function Nutraceuticals() {
   return (
-    <span>
-    <div className="crosel-container">
+    <div>
+    <div className="crosel-container1">
 
-        <section className="py-5 text-center header-nutra">
+        <section className="py-5 text-center header-nutra mt-1">
           <div className="row py-lg-5">
             <div className="col-lg-6 col-md-8 mx-auto">
               <h2 className="fw-light">Vitamin tablet/capsule</h2>
@@ -59,7 +59,7 @@ function Nutraceuticals() {
       </div>
 
       <div className='crosel-container'>
-        <section className="py-5 text-center header-nutra">
+        <section className="py-5 text-center header-nutra mt-1">
           <div className="row py-lg-5">
             <div className="col-lg-6 col-md-8 mx-auto">
               <h2 className="fw-light">Ayurvedic tablet/capsule</h2>
@@ -105,7 +105,7 @@ function Nutraceuticals() {
         <i className="bi bi-arrow-bar-left swiper-button-prev"></i>
     </div>
     <div className='crosel-container'>
-        <section className="py-5 text-center header-nutra">
+        <section className="py-5 text-center header-nutra mt-1">
           <div className="row py-lg-5">
             <div className="col-lg-6 col-md-8 mx-auto">
               <h2 className="fw-light">Other tablet/capsule</h2>
@@ -150,7 +150,7 @@ function Nutraceuticals() {
         <i className="bi bi-arrow-bar-right swiper-button-next"></i>
         <i className="bi bi-arrow-bar-left swiper-button-prev"></i>
     </div>
-    </span>
+    </div>
   );
 }
 

@@ -3,7 +3,7 @@
 .header-nutra{
   font-size: 2.2rem;
   font-family: 'Oxygen', sans-serif;
-  margin-bottom: -70px;
+  /* margin-bottom: -70px; */
 }
 
 .para-nutra{
@@ -12,7 +12,16 @@
 }
 .crosel-container {
     position: relative;
-    margin-top: 100px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .crosel-container1 {
+    position: relative;
+    margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
@@ -26,8 +35,8 @@
   }
   .swiper {
     width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 0px;
+    padding-bottom: 70px;
   }
   
   .swiper-slide {
