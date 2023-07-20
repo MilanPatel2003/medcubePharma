@@ -25,7 +25,7 @@ function Footer() {
               </li>
               <li>
                
-              Medcubepharmaceuticals@gmail.com
+              medcubepharmaceuticals@gmail.com
               </li>
             </ul>
           </div>
