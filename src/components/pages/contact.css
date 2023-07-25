@@ -4,6 +4,10 @@
     box-sizing: border-box;
    
 }
+body {
+    /* Block horizontal scrollbar for the entire body */
+    overflow-x: hidden;
+  }
 .contact-container{
     width: 1000px!important;
     margin-top: 150px;
