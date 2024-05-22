@@ -1,3 +1,5 @@
+THE PROJECT IS HOSTED ON NETLIFY, VISIT THIS LINK FOR LIVE PREVIEW:- https://64bf6095e7c27c0008e75b9c--tranquil-quokka-1740a3.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
